@@ -1,0 +1,8 @@
+{
+  "name": "Remix  UPTO SELECTION pritam2",
+  "description": "Comprehensive mock tests, real TCS iON exam simulator, chapterwise tests, PDF study notes, performance analytics, and admin control for SSC, Railway, Banking, and State PSC exams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

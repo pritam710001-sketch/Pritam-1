@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+/* Custom font smoothing & transitions */
+* {
+  transition-property: background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Watermark styles for PDF reading security */
+.pdf-watermark-overlay {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(16, 185, 129, 0.04),
+    rgba(16, 185, 129, 0.04) 100px,
+    transparent 100px,
+    transparent 200px
+  );
+}
